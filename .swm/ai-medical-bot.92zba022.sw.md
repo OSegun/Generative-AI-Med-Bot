@@ -91,7 +91,7 @@ prompt = ChatPromptTemplate.from_template(system_prompt)
 
 ---
 
-Flask is used to create a web application that serves the chatbot interface. We define routes to render the chat interface and handle user messages. The `/get` route processes user input, invokes the processing chain, and returns the generated response.
+Flask is used to create a web application as a chatbot interface. We define routes to render the chat interface and handle user messages. The `/get` route processes user input, invokes the processing chain, and returns the generated response.
 
 ```
 @app.route("/")
@@ -119,7 +119,7 @@ def chat():
 
 ---
 
-Finally, the Flask application is set to run on a specified host and port, with debugging enabled for development purposes.
+Finally, the Flask application is set to run on a specified host and port, with debugging enabled for Continuous Development and Continuous Integration (CICD) purposes.
 
 ```
 if __name__ == "__main__":
